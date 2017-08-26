@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100%;
+	background: url('../images/background.jpg');
+	background-size: cover;
+	-webkit-background-size: covesr;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+}
+.index {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	height: auto;
+	width: 100%;
+}
+.index .search {
+	position: absolute;
+	top: 50%;
+	left: 26%;
+	display: inline-block;
+	background-color: #202223;
+}
+.index .search input {
+	border: 0px;
+	width: 620px;
+	height: 40px;
+	background-color: #202223;
+	color: #eee;
+	font-size: 14px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	outline: none;
+	padding-left:10px;
+}
+.index .search button {
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	background-color: #202223;
+	border: 0px;
+	cursor: pointer;
+	outline: none;
+}
+.index #guge{
+	position: absolute;
+	top: 32%;
+	left: 35%;
+}
+.index_page {
+	width: 100%;
+	height: 100%;
+}
+/*ËÑË÷½á¹û*/
+.results {
+	width: 55%;
+	margin-left: 40px;
+	margin-right: 40px;
+	float: left;
+}
+.results .section {
+	float: left;
+	width: 90%;
+}
+.results .section.weibo {
+	margin-bottom: 40px;
+}
+.results .section.weibo .info {
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.results .section.weibo .info .title {
+	text-decoration: underline;
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #2069f5;
+}
+
+.results .label {
+	font-family: "Microsoft Yahei";
+	color: #36f8ff;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: underline;
+	margin-bottom: 15px;
+	padding-top: 40px;
+}
+.results .text {
+	font-family: "Microsoft Yahei";
+	color: #eee;
+	font-size: 13px;
+	margin-left: 20px;
+}
+.results .more {
+	text-decoration: none;
+	float: right;
+	margin-top: 20px;
+}
+.results .more a {
+	display: block;
+}
+.results .more p {
+	display: inline-block;
+	font-family: "Microsoft Yahei";
+	color: #36f8ff;
+	font-size: 14px;
+}
+.results .more button {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	line-height: 14px;
+	border: 1px solid #36f8ff;
+	background-color: rgba(0,0,0,0);
+	font-family: "Microsoft Yahei";
+	color: #36f8ff;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.results .section.news .info {
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.results .section.news .info .title {
+	text-decoration: underline;
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	color: #ededed;
+}
+.results .section.news .info .media, .results .section.news .info .date {
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	color: #909090;
+}
+.related {
+	float: right;
+	width: 35%;
+	margin-right: 40px;
+	margin-top: 40px;
+}
+.related .container {
+	border-left: 1px solid #ccc;
+	padding-left: 30px;
+}
+.related .related_film {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.related h4 {
+	font-family: "Microsoft Yahei";
+	color: #36f8ff;
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.related ul {
+	list-style: none;
+	max-width: 360px;
+}
+.related li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.related li p {
+	color: #d4d4d4;
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	text-align: center;
+}
+.clear {
+	clear: both;
+}
+#index_footer{
+	top:98%;
+}
+
+

@@ -1,0 +1,302 @@
+
+    #container01-1 {
+	   margin-left: -20px;
+	   width: 800px;  height: 172px;  
+	   background: url(../images/container01-1.png) 0 0 no-repeat;
+	}
+
+
+    #btPlace1 {
+	
+	   margin-left: 5px;
+	   width: 160px;  height: 60px;   
+	   
+	}
+	
+	#container01-1-left {
+    float: left;
+    width: 183px;
+    height: 170px;
+    background: url(../images/container01-1-left.png) 0 0 no-repeat;
+    }
+	
+	#container01-1-left-top-banner {
+	width: 183px;
+	height: 20px;
+    }
+	
+    #container01-1-left-top-pic {
+	width: 183px;
+	height: 100%;
+	padding-left: 44px;
+	
+    }
+	 
+	 
+	#container01-1-right {
+    float: left;
+    width: 610px;
+    height: 170px;
+	//background: #aa00aa;
+     } 
+	 
+	#container01-1-right-top {
+    width: 610px;
+    height: 60px;
+	margin-top: 18px;
+	margin-left: 0px;
+	font-size: 1.38em;
+	font-family: "鏂板畫浣�";
+	color:red; letter-spacing: 0.3px;
+}
+
+    .container01-1-right-bottom {
+    width: 585px;
+    height: 65px;
+	margin-top: 2px;
+	margin-left: 5px;
+	font-size: 18.2px;
+	color:#02ffff;
+	font-family: "鏂板畫浣�";
+	letter-spacing: 0.8px;            /* 1.1px  */
+	line-height: 180%;
+	overflow: hidden;
+	
+	//background: #000000;
+} 
+
+
+	 
+	 
+	
+	
+	#container01-2 {
+	
+	   margin-left: 0px;
+	   width: 160px;  height: 30px;  
+	   //  background: #00ff00;   
+	
+	}
+	
+	
+	
+
+	* {
+	  box-sizing: border-box;
+	}
+	body {
+	  line-height: 1.5;
+	  font-family: 'Roboto',"Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei";
+	  -webkit-font-smoothing: antialiased;
+	  overflow-x: hidden;
+	  
+
+      height: 700px; 
+	}
+	h1,
+	h2,
+	h3,
+	p {
+	  font-weight: 300;
+	  margin: 0 0 2.4rem 0;
+	}
+	h1,
+	h2,
+	h3 {
+	  line-height: 1.3;
+	}
+	a {
+	  text-decoration: none;
+	  color: inherit;
+	  font-weight: 400;
+	}
+	
+	a .media,.date{
+	  color:#909090;
+	  font-size:12px;
+	}
+	/**
+	 * Material Modal CSS
+	 */
+	.modal {
+	  will-change: visibility, opacity;
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	      -ms-flex-align: center;
+	          align-items: center;
+	  -webkit-box-pack: center;
+	  -webkit-justify-content: center;
+	      -ms-flex-pack: center;
+	          justify-content: center;
+	  position: fixed;
+	  top: 0;
+	  left: 0;                                  /*      ---  鏄剧ず浣嶇疆  ----     */
+ 	  right: 0;
+	  bottom: 0;
+	  overflow-y: auto;
+	  overflow-x: hidden;
+	  z-index: 1000;
+	  visibility: hidden;
+	  opacity: 0;
+	  -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+	          transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+	  -webkit-transition-delay: 0s;
+	          transition-delay: 0s;
+	}
+	.modal--active {
+	  visibility: visible;
+	  opacity: 1;
+	}
+	.modal--align-top {
+	  -webkit-box-align: start;
+	  -webkit-align-items: flex-start;
+	      -ms-flex-align: start;
+	          align-items: flex-start;
+	}
+	.modal__bg {
+	  background: transparent;
+	}
+	.modal__dialog {
+	  max-width: 600px;
+	  padding: 1.2rem;
+	}
+	.modal__content {
+	  overflow:auto;
+	  word-break:break-all;
+	  will-change: transform, opacity;
+	  position: relative;
+	  padding: 2.4rem;
+	  background: #ffffff;                             /*      ----  Frame BG  ---     */
+	  background-clip: padding-box;
+	  box-shadow: 0 12px 15px 0 rgba(0,0,0,0.25);
+	  opacity: 0;
+	  -webkit-transition: all 0.25s cubic-bezier(0.23, 1, 0.32, 1);
+	          transition: all 0.25s cubic-bezier(0.23, 1, 0.32, 1);
+	}
+	.modal__content--active {
+	  opacity: 1;
+	}
+	.modal__close {
+	  z-index: 1100;
+	  cursor: pointer;
+	}
+	.modal__trigger {
+	  position: relative;                                /*      ----  鎸夐挳澶у皬  ---     */
+	  display: inline-block;
+	  padding: 1.2rem 2rem;
+	  //color: rgba(0,0,0,0.7);                          /*      ------------------     */
+	  line-height: 1;
+	  cursor: pointer;
+	  //background: #ffebee;                             /*      ----  鎸夐挳棰滆壊  ---     */
+	  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+	  -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+	          transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+	  
+	  white-space:nowrap;
+	  font-size: 0.94em; 		  
+	}
+	.modal__trigger--active {
+	  z-index: 10;
+	}
+	.modal__trigger:hover {
+	  background: #fbfbfb;                             /*      ----  Button BG  ---     */
+	}
+	#modal__temp {
+	  will-change: transform, opacity;
+	  position: relative;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  background: #ffebee;
+	  -webkit-transform: none;
+	      -ms-transform: none;
+	          transform: none;
+	  opacity: 1;
+	  -webkit-transition: opacity 0.1s ease-out, -webkit-transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+	          transition: opacity 0.1s ease-out, transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+	}
+	/**
+	 * Demo specific CSS
+	 */
+	
+	img {
+	  max-width: 100%;
+	}
+	.demo-btns header {
+	  padding: 7vh 10vw;
+	  background: #ffebee;
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	      -ms-flex-align: center;
+	          align-items: center;
+	}
+	.demo-btns header h1 {
+	  margin: 0;
+	  //color: rgba(0,0,0,0.54);                  /*      ------------------     */
+	  font-weight: 300;
+	}
+	.demo-btns .info {
+	  //background: rgba(1,250,250,0.3);      /*   杩欓噷鏄� 璁剧疆 鈥� 钃濊壊 鈥� 鑳屾櫙棰滆壊 銆� 榛樿鍒犻櫎杩欏彞 銆� */
+	  padding: 3vh 10vw;
+	  height: 586px;                           /*   杩欓噷鏄�  "鑳屾櫙2" 鐨勯鑹� 銆� 榛樿鍒犻櫎杩欏彞 銆� */         
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	      -ms-flex-align: center;
+	          align-items: center;
+	  -webkit-box-pack: center;
+	  -webkit-justify-content: center;
+	      -ms-flex-pack: center;
+	          justify-content: center;
+	  -webkit-flex-flow: column wrap;
+	      -ms-flex-flow: column wrap;
+	          flex-flow: column wrap;
+	}
+	.demo-btns p {
+	  text-align: center;
+	  
+	}
+	.demo-btns .link {
+	  font-size: 20px;
+	}
+	.demo-btns .modal__trigger {
+	  margin-right: 3px;
+	}
+	@media (max-width: 640px) {
+	  .demo-btns .modal__trigger {
+	    margin-bottom: 0.8rem;
+	  }
+	}
+	.demo-close {
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  margin: 1.2rem;
+	  padding: 0.6rem;
+	  background: rgba(0,0,0,0.3);
+	  border-radius: 50%;
+	  -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+	          transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+	}
+	.demo-close svg {
+	  width: 24px;
+	  height: 24px;
+	  fill: #fff;
+	  pointer-events: none;
+	  vertical-align: top;
+	}
+	.demo-close:hover {
+	  background: rgba(0,0,0,0.6);
+	}

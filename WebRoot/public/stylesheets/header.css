@@ -1,0 +1,56 @@
+header{
+	background-color: #181818;
+	width: 100%;
+	min-width: 840px;
+	height: 55px;
+}
+header .logo{
+	margin-left: 20px;
+	border: 0px;
+	float: left;
+	margin-top: 5px;
+}
+header .title{
+	margin-left: 10px;
+	border: 0px;
+	float: left;
+}
+header .search{
+	margin-top: 12px;
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+	/*margin-top:10px;*/
+	top:0px;
+	/*margin-top: -10px;*/
+	background-color: #202223;
+	padding-right: 10px;
+}
+header .search input{
+	border: 0px;
+	width: 420px;
+	height: 30px;
+	background-color: #202223;
+	color:#eee;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	outline: none;
+	padding-left:10px;
+	word-spacing:6px;
+}
+header .search button{
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	background-color: #202223;
+	border: 0px;
+	cursor: pointer;
+	outline: none;
+}
+
+header h4{
+	
+	float:left;
+	padding-top: 20px;
+	padding-left: 30px;
+}

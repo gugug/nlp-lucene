@@ -1,0 +1,24 @@
+footer{
+	position:fixed;
+	
+	top:95.5%;
+	background-color: #101010;
+	height: 35px;
+	width: 100%;
+	min-width: 840px;
+	height: 45px;
+	padding-top: 10px;
+	float: left;
+}
+#index_footer{
+	position: absolute;
+	width: 100%;
+}
+footer p{
+	display: block;
+	color: #898989;
+	margin:0 0 0 0;
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+	text-align: center;
+}

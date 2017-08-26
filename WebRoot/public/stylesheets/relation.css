@@ -1,0 +1,234 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url('../images/background.png') no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+}
+.relation_page{
+	/*padding-bottom: 55px;*/
+	width: 100%;
+	height:100%;
+}
+#Echart{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	float: left;
+	margin-left: 40px;
+}
+
+/*卡片公用样式*/
+
+.card{
+	float: right;
+	/*min-width: 200px;
+	max-width: 300px;*/
+	width: 260px;
+	margin-top: 80px;
+	/*margin-right: 40px;*/
+	margin-bottom: 40px;
+	color:#cdcdcd;
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+
+}
+.card .label{
+	background-color: rgba(1,23,32,0.55);
+	margin-bottom: 25px;
+	box-shadow:2px 2px 4px 2px rgba(0,0,0,0.6);
+	height: 30px;
+	font-size: 18px;
+	color: #38eef0;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 1px;
+
+}
+.card .content{
+	background-color: rgba(1,23,32,0.7);
+	box-shadow:2px 2px 4px 2px rgba(0,0,0,0.6);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+.card ul{
+	list-style: none;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.card li{
+	display: inline-block;
+	margin-right: 15px;
+}
+.card img{
+	width: 105px;
+	height: 105px;
+	border-radius: 50%;
+	border: 0px;
+	/*margin-left: 62.5px;*/
+	padding-top: 25px;
+	padding-bottom:20px;
+	position: relative;
+	left: 50%;
+	margin-left: -52.5px;
+}
+.card .more {
+	height: 20px;
+	position: relative;
+	margin-top: 15px;
+}
+.card .more_button{
+	text-decoration: none;
+	position: absolute;
+	left: 100%;
+	margin-left: -70px;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+.card .more_button a{
+
+	display: block;
+}
+.card .more_button p{
+	display: inline-block;
+	font-family: "Microsoft Yahei";
+	color: #36f8ff;
+	font-size: 14px;
+}
+.card .more_button button{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	line-height: 14px;
+	border: 1px solid #36f8ff;
+	background-color: rgba(0,0,0,0);
+	font-family: "Microsoft Yahei";
+	color: #36f8ff;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+/*电影卡片*/
+
+#film_card{
+ 	display: none;
+}
+#film_card .cloud{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top: 1px solid #0e4a60;
+	border-bottom: 1px solid #0e4a60;
+}
+#film_card .score{
+	text-align: center;
+}
+#film_card .score span{
+	font-size: 20px;
+	color: #ffb472;
+}
+
+/*电影评价*/
+
+#comment_card{
+	display: none;
+}
+#comment_card .author{
+	color:#a9a9a9;
+	font-size:12px;
+	margin-top: 5px;
+}
+
+/*发行公司*/
+
+#company_card{
+	display: none;
+}
+#company_card .name{
+	text-align: center;
+	color: #30d0d3;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+#company_card .works{
+	margin-top: 20px;
+	padding-top: 15px;
+	border-top: 1px solid #0e4a60;
+}
+
+
+/*风格简介*/
+#style_card{
+	display: none;
+}
+
+
+/*获奖情况*/
+
+#awards_card{
+	display: none;
+}
+#awards_card ul{
+	margin-left: 0px;
+	margin-top: 20px;
+}
+#awards_card li{
+	display: block;
+	margin-bottom: 20px;
+	margin-right: 0px;
+}
+
+/*剧情简析*/
+.card.plot_card{
+	display: none;
+}
+
+/*人物介绍*/
+#person_card{
+	display: none;
+}
+#person_card .name{
+	text-align: center;
+	color: #30d0d3;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+#person_card .works{
+	margin-top: 20px;
+	padding-top: 15px;
+	border-top: 1px solid #0e4a60;
+}
+
+/*题材背景*/
+#background_card{
+	display: none;
+}
+#background_card .works{
+	margin-top: 20px;
+	padding-top: 15px;
+	border-top: 1px solid #0e4a60;
+}
+
+/*音乐原声*/
+#music_card{
+	display: none;
+}
+#music_card .info li{
+	display: block;
+	margin-right: 0px;
+}
+#music_card .info span{
+	margin-right: 30px;
+	display: inline-block;
+	width: 60px;
+}
